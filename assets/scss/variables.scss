@@ -5,4 +5,9 @@ $color-text-third:#007FEF;
 
 //cor background
 $color-bg-primary:#1E2225;
-$color-bg-secondary:;
+
+
+//medias
+@mixin for-desktop {
+    @media (min-width: 1200px) { @content; }
+}

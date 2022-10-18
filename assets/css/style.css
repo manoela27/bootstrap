@@ -1,3 +1,31 @@
-
+body nav {
+  z-index: 9;
+}
+body nav .logo {
+  height: 50px;
+}
+body main .c-home {
+  background-color: #1E2225;
+  height: 100vh;
+}
+body main .c-home .title {
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  line-height: 1rem;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+@media (min-width: 1200px) {
+  body main .c-home .title {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+}
+body main .c-home .describe {
+  color: #FFFFFF;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-family: "Montserrat";
+}
 
 /*# sourceMappingURL=style.css.map */

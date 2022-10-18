@@ -1,1 +1,36 @@
 //sass --watch assets/scss/style.scss:assets/css/style.css
+@import 'variables.scss';
+
+body{
+    nav{
+        z-index: 9;
+        .logo{
+            height: 50px;
+        }
+    }
+    main{
+        .c-home{
+            background-color: $color-bg-primary;
+            height: 100vh;
+
+            .title{
+                font-size: 2.5rem;
+                color: $color-text-first;
+                line-height: 1rem;
+                font-weight: 700;
+                font-family: 'Montserrat';
+
+                @include for-desktop{
+                    font-size: 3rem;
+                    line-height: 2rem;
+                }
+            }
+            .describe{
+                color: $color-text-first;
+                font-size: 1rem;
+                line-height: 1.3rem;
+                font-family: 'Montserrat';
+            }
+        }
+    }
+}
