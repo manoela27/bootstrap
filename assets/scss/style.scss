@@ -3,9 +3,11 @@
 
 body{
     nav{
-        z-index: 9;
         .logo{
             height: 50px;
+        }
+        @include for-desktop{
+            width: 100%;
         }
     }
     main{
